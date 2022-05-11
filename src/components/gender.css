@@ -1,0 +1,15 @@
+#pie-chart{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#legend-box span{
+    margin-right: 2rem;
+}
+#legend-box >span>div{
+    margin-right: 1rem;
+}
+#legend-box{
+    margin-top:1rem;
+}
