@@ -14,7 +14,7 @@ export const Main = ({ sameAreaUsers, areasObj }) => {
     <div id="main">
       <select name="chart-type" onInput={handleInput} value={optionState}>
         <option value="none" selected disabled hidden>
-          Type of Chart
+          Select the type of Chart
         </option>
         <option value="1">Revenue per area</option>
         <option value="2">Number of users per Area</option>
